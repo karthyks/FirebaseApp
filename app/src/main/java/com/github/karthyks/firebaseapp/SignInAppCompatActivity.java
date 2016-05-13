@@ -29,7 +29,7 @@ public abstract class SignInAppCompatActivity extends AppCompatActivity implemen
     progressDialog = new ProgressDialog(this);
     progressDialog.setMessage(message);
     progressDialog.setIndeterminate(true);
-    if(!progressDialog.isShowing())
+    if (!progressDialog.isShowing())
       progressDialog.show();
   }
 

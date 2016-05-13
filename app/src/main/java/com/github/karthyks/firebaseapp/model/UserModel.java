@@ -19,7 +19,7 @@ public class UserModel {
   public static UserModel fromAccount(GoogleSignInAccount account) {
     String photoUrl = "";
     try {
-      if(account.getPhotoUrl() != null) {
+      if (account.getPhotoUrl() != null) {
         photoUrl = account.getPhotoUrl().toString();
       }
     } catch (Exception e) {

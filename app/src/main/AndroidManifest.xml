@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.github.karthyks.firebaseapp"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest
+    package="com.github.karthyks.firebaseapp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
     <application
         android:name=".FirebaseApp"
         android:allowBackup="true"

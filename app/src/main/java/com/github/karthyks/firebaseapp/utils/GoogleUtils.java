@@ -103,7 +103,7 @@ public class GoogleUtils implements GoogleApiClient.OnConnectionFailedListener,
       GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(intent);
       handleSignInResult(result);
     } else if (requestCode == RC_GOOGLE_LOGIN) {
-      if(resultCode != Activity.RESULT_OK) {
+      if (resultCode != Activity.RESULT_OK) {
         signOut();
         revokeAccess();
       }
