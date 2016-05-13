@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1021137975311",
+    "project_id": "firebaseauth-1296"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021137975311:android:1549425663abc654",
+        "android_client_info": {
+          "package_name": "com.github.karthyks.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021137975311-m26i4p2o8n3ua3cq550f6j2tpdai1407.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.github.karthyks.firebaseapp",
+            "certificate_hash": "4888F93386EF939F196046043F2A63A62114E3AE"
+          }
+        },
+        {
+          "client_id": "1021137975311-7q971jjmi8k08qlunokd75q0n2e8fgou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOHSj25j_yHbPbrSQ-2P5c_uZN6ppFyyc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
